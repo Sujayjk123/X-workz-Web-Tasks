@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <title>Home - Order Food</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="oder-header-image.webp" alt="Header Image" class="header-image">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="order.html">Order</a>
+        </nav>
+    </header>
+
+    <div class="background">
+        <!-- Background image is set in CSS -->
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <span>Contact Details: contact@mealmate.co.in</span>
+            <span>Designed by: MealMate.com</span>
+            <span>Address: 123 Example Street, City, Country</span>
+            
+            <!-- Social Media Text Links -->
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank" aria-label="Facebook">Facebook</a> |
+                <a href="https://twitter.com" target="_blank" aria-label="Twitter">Twitter</a> |
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram">Instagram</a> |
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+            </div>
+            
+            <!-- Display Current Date -->
+            <span id="current-date"></span>
+        </div>
+    </footer>
+    <script>
+        const dateElement = document.getElementById("current-date");
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const currentDate = new Date().toLocaleDateString(undefined, options);
+        dateElement.textContent = `Date: ${currentDate}`;
+    </script>
+    
+    
+    
+</body>
+</html>
+=======
+    <title>Welcome to the.....</title>
+</head>
+<body>
+  <h1>Welcome to my Page</h1>
+  <style>
+    h1{
+      text-align: center;
+    }
+    p1{
+      color: blue;
+
+    }
+  </style>
+  <h2>Click here to move to the User Registration form</h2>
+  <form action="userForm.html" method="get">
+      <input type="button" name="register" id="reg" value="Register" onclick="location.href='userForm.html'">
+  </form>
+  <h2>Click the below button read about my article on Friend.</h2>
+  <form action="article.html" method="get">
+    <input type="button" name="article" id="blog" value="aticle on my friend" onclick="location.href='article.html'">
+</form>
+</body>
+</html>
+>>>>>>> a41e1b391e985c1027c19ea45b4ad13e27d19b27
